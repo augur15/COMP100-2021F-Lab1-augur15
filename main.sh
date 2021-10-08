@@ -10,11 +10,11 @@ rm ids.txt
 #### ==================================== #####
 
 
-# Command for Q1
-
+# Command for Q1 
+touch quiz.sh
 # Command for Q2
-
+chmod u+rwx quiz.sh
 # Command for Q3
-
+cat profiles2021/* | grep "" >> quiz.sh
 # Command for Q4
-
+cp -r ./profiles2020* profiles2021
